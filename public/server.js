@@ -1,10 +1,8 @@
-const cors =
-const express =
-const bodyParser =
-const Books =
+const cors = require('cors-express');
+const express = require("express");
+const bodyParser = require("body-parser");
+const Books = require("./books");
 
-const PORT = 
-const app =
-const router =
-
-const options =
+const PORT = process.env.PORT || 3001;
+const app = express();
+const router = express.Router();
