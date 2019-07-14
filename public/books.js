@@ -14,3 +14,7 @@ const BookSchema = new Schema({
     price: Number,
     purchase: String,
 });
+
+//schema export 
+
+module.exports = mongoose.model("Books", BookSchema);
