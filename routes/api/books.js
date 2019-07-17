@@ -25,3 +25,12 @@ router.post('/search',(req,res)=>{
         });
 });
 
+router.post('/', (req, res) =>{
+    Book.create(req.body)
+    .then(response => {
+        res.json({ successful: response});
+    })
+    .catch(err => {
+        res.json({ error:err});
+    });
+});
