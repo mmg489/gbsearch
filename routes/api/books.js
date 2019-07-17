@@ -34,3 +34,12 @@ router.post('/', (req, res) =>{
         res.json({ error:err});
     });
 });
+
+router.delete('/:id', (req,res) => {
+    Book.findByIdAndDelete(req.params.id)
+    .then(response => {
+        res.json({ error:err});
+    });
+});
+
+module.exports = router;
