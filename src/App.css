@@ -12,6 +12,8 @@ body {
 h3{
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+  font-size: 60px ;
+  text-align: center;
 }
 
 h4{
@@ -122,8 +124,8 @@ a:hover {
 }
 
 .book-box{
-  background-color:#e99678ee;
-  color:white;
+  background-color:purple;
+  color:whitesmoke;
   padding: 20px;
   margin: 20px;
   padding-right: 50px;
