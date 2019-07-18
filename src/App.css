@@ -116,7 +116,9 @@ a:hover {
 
 .no-data {
   margin: 25px 0px;
-  color: #e99678;
+  color: whitesmoke;
+  font-size: 32px;
+  text-align: center;
 }
 
 .book-box{
@@ -134,4 +136,5 @@ a:hover {
   background-color:#e99678ee;
   border-color: #cccc;
 }
+
 
