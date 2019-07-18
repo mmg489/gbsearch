@@ -57,7 +57,7 @@ label {
 }
 
 a {
-  color: #fff !important;
+  color: whitesmoke!important;
   text-decoration: none !important;
 }
 
@@ -76,7 +76,7 @@ a:hover {
   padding: 10px;
   border: 1px solid #cccc !important;
   color: white !important;
-  background-color:#e99678;
+  background-color:purple;
 }
 
 .theme-link:hover {
