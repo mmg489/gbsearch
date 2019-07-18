@@ -1,33 +1,137 @@
-.App {
-  text-align: center;
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-image: url("https://s2982.pcdn.co/wp-content/uploads/2016/05/beauty-and-the-beast-library-1024x576.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color:white;
+  font-family: serif;
+}
+h3{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+h4{
+  font-size: 30px;
+  font-weight: 600;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.books{
+  margin: 10px !important;
+  padding:10px;
+}
+.message-box{
+  margin-top:23px;
+}
+.application {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  flex: 1 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper {
+  padding: 80px 0px;
 }
+
+span,
+label,
+a,
+p {
+  font-size: x-large;
+  font-family: serif;
+}
+
+label {
+  cursor: default;
+  margin: 0;
+}
+
+a {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: #ffffff94 !important;
+  -moz-transition: color 0.2s ease-in-out;
+  -webkit-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+
+.theme-link {
+  display: block;
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  border: 1px solid #cccc !important;
+  color: white !important;
+  background-color:#e99678;
+}
+
+.theme-link:hover {
+  color: #e99678!important;
+  background-color: #fff;
+}
+
+.theme-btn {
+  border: 1px solid #cccc !important;
+  background-color: #e99678;
+  color: #fff;
+  padding: 5px;
+  border: none;
+  width: 150px;
+  transition: 0.3s;
+  font-family: serif;
+  font-size: x-large;
+}
+
+.theme-btn:hover {
+  background-color: #fff;
+  color: #e99678;
+}
+
+.theme-btn:focus {
+  outline: none;
+}
+
+.theme-input {
+  padding: 10px;
+  border: 1px solid #cccc;
+}
+
+.theme-input:focus {
+  outline: none;
+}
+
+.no-data {
+  margin: 25px 0px;
+  color: #e99678;
+}
+
+.book-box{
+  background-color:#e99678ee;
+  color:white;
+  padding: 20px;
+  margin: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.alert-success {
+  color: #fff;
+  background-color:#e99678ee;
+  border-color: #cccc;
+}
+
